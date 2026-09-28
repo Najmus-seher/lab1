@@ -1,148 +1,220 @@
-<title>Najmus Seher | Student Portfolio</title>
+<!DOCTYPE html>
+<html lang="en">
 
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Najmus Seher | Student Portfolio</title>
 
-    body {
-        font-family: Arial, sans-serif;
-        background: linear-gradient(135deg, #0f172a, #1e3a8a);
-        color: white;
-        min-height: 100vh;
-    }
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px 8%;
-        background: rgba(0, 0, 0, 0.2);
-    }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: white;
+            min-height: 100vh;
+        }
 
-    nav h2 {
-        color: #60a5fa;
-    }
-
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin-left: 25px;
-    }
-
-    nav a:hover {
-        color: #60a5fa;
-    }
-
-    .hero {
-        min-height: 80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 40px 20px;
-    }
-
-    .hero-content {
-        max-width: 750px;
-    }
-
-    .profile {
-        width: 130px;
-        height: 130px;
-        border-radius: 50%;
-        background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto 25px;
-        font-size: 42px;
-        font-weight: bold;
-        box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
-    }
-
-    .hero h1 {
-        font-size: 50px;
-        margin-bottom: 15px;
-    }
-
-    .hero h1 span {
-        color: #60a5fa;
-    }
-
-    .hero h3 {
-        font-size: 22px;
-        color: #cbd5e1;
-        margin-bottom: 20px;
-    }
-
-    .hero p {
-        font-size: 18px;
-        line-height: 1.7;
-        color: #cbd5e1;
-        margin-bottom: 30px;
-    }
-
-    .btn {
-        display: inline-block;
-        padding: 13px 28px;
-        background: #3b82f6;
-        color: white;
-        text-decoration: none;
-        border-radius: 8px;
-        font-weight: bold;
-        transition: 0.3s;
-    }
-
-    .btn:hover {
-        background: #2563eb;
-        transform: translateY(-3px);
-    }
-
-    .about {
-        padding: 70px 20px;
-        background: rgba(255, 255, 255, 0.05);
-        text-align: center;
-    }
-
-    .about h2 {
-        font-size: 32px;
-        margin-bottom: 25px;
-        color: #60a5fa;
-    }
-
-    .about p {
-        max-width: 700px;
-        margin: auto;
-        color: #cbd5e1;
-        line-height: 1.8;
-        font-size: 17px;
-    }
-
-    footer {
-        text-align: center;
-        padding: 25px;
-        color: #94a3b8;
-    }
-
-    @media (max-width: 600px) {
         nav {
-            flex-direction: column;
-            gap: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        nav h2 {
+            color: #60a5fa;
         }
 
         nav a {
-            margin: 0 8px;
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero-content {
+            max-width: 750px;
+        }
+
+        .profile {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 25px;
+            font-size: 42px;
+            font-weight: bold;
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
         }
 
         .hero h1 {
-            font-size: 36px;
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #60a5fa;
         }
 
         .hero h3 {
-            font-size: 18px;
+            font-size: 22px;
+            color: #cbd5e1;
+            margin-bottom: 20px;
         }
-    }
-</style>
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #cbd5e1;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 13px 28px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+            transform: translateY(-3px);
+        }
+
+        .about {
+            padding: 70px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 32px;
+            margin-bottom: 25px;
+            color: #60a5fa;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            color: #cbd5e1;
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero h3 {
+                font-size: 18px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <h2>Najmus Seher</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+
+            <div class="profile">
+                NS
+            </div>
+
+            <h1>Hello, I'm <span>Najmus Seher</span></h1>
+
+            <h3>BE Student | Jain Institute of Technology</h3>
+
+            <p>
+                Welcome to my personal website.
+                I am Najmus Seher, currently pursuing my
+                Bachelor of Engineering (BE) degree at
+                Jain Institute of Technology.
+                I am passionate about learning new technologies,
+                developing my skills, and building my career.
+            </p>
+
+            <a href="#about" class="btn">Know More About Me</a>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            My name is <strong>Najmus Seher</strong>.
+            I am currently studying for my
+            <strong>Bachelor of Engineering (BE)</strong>
+            at <strong>Jain Institute of Technology</strong>.
+            I enjoy learning, exploring technology, and
+            improving my technical and professional skills.
+            My goal is to gain knowledge and experience
+            that will help me build a successful career.
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2026 Najmus Seher. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
